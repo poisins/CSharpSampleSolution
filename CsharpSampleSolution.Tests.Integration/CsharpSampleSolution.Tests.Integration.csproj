@@ -23,4 +23,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\CsharpSampleSolution.Tests.NUnit.Addons\CsharpSampleSolution.Tests.NUnit.Addons.csproj" />
+  </ItemGroup>
+
 </Project>
