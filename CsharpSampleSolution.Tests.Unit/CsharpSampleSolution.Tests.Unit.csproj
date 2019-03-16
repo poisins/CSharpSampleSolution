@@ -16,9 +16,4 @@
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.8.0" />
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\CsharpSampleSolution.Business.Logic\CsharpSampleSolution.Business.Logic.csproj" />
-    <ProjectReference Include="..\CsharpSampleSolution.Business.Objects\CsharpSampleSolution.Business.Objects.csproj" />
-  </ItemGroup>
-
 </Project>

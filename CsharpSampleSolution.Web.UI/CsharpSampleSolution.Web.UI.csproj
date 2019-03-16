@@ -12,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CsharpSampleSolution.Business.Objects\CsharpSampleSolution.Business.Objects.csproj" />
+    <ProjectReference Include="..\CsharpSampleSolution.Common\CsharpSampleSolution.Common.csproj" />
   </ItemGroup>
 
 </Project>

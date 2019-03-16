@@ -1,8 +1,8 @@
 using NUnit.Framework;
 
-namespace Tests
+namespace CsharpSampleSolution.Tests.E2E
 {
-    public class Tests
+    public class SampleTests
     {
         [SetUp]
         public void Setup()

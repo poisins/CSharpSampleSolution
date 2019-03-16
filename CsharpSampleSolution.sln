@@ -9,19 +9,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{3DC6AD
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{D14F8469-1DCC-4A8B-B883-79878E8DFC50}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsharpSampleSolution.Web.API", "CsharpSampleSolution.Web.API\CsharpSampleSolution.Web.API.csproj", "{4CF3D120-45D6-44C7-B307-533DD5D36182}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CsharpSampleSolution.Web.API", "CsharpSampleSolution.Web.API\CsharpSampleSolution.Web.API.csproj", "{4CF3D120-45D6-44C7-B307-533DD5D36182}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsharpSampleSolution.Business.Logic", "CsharpSampleSolution.Business.Logic\CsharpSampleSolution.Business.Logic.csproj", "{1EE0A996-4045-42A7-82F5-E0740DC4011B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CsharpSampleSolution.Common.Business", "CsharpSampleSolution.Common.Business\CsharpSampleSolution.Common.Business.csproj", "{1EE0A996-4045-42A7-82F5-E0740DC4011B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsharpSampleSolution.Business.Objects", "CsharpSampleSolution.Business.Objects\CsharpSampleSolution.Business.Objects.csproj", "{225B1596-9DB7-437E-8FA4-2941416D076C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CsharpSampleSolution.Common", "CsharpSampleSolution.Common\CsharpSampleSolution.Common.csproj", "{225B1596-9DB7-437E-8FA4-2941416D076C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsharpSampleSolution.Web.UI", "CsharpSampleSolution.Web.UI\CsharpSampleSolution.Web.UI.csproj", "{C7B9ADC6-BC96-4B85-8904-E274C18ADDC4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CsharpSampleSolution.Web.UI", "CsharpSampleSolution.Web.UI\CsharpSampleSolution.Web.UI.csproj", "{C7B9ADC6-BC96-4B85-8904-E274C18ADDC4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsharpSampleSolution.Tests.Unit", "CsharpSampleSolution.Tests.Unit\CsharpSampleSolution.Tests.Unit.csproj", "{1BB6477A-CC8C-4EAD-A597-7A8B3C7E81E3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CsharpSampleSolution.Tests.Unit", "CsharpSampleSolution.Tests.Unit\CsharpSampleSolution.Tests.Unit.csproj", "{1BB6477A-CC8C-4EAD-A597-7A8B3C7E81E3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsharpSampleSolution.Tests.Integration", "CsharpSampleSolution.Tests.Integration\CsharpSampleSolution.Tests.Integration.csproj", "{17754FCA-E24E-402E-BAA2-0139D3AA9E02}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CsharpSampleSolution.Tests.Integration", "CsharpSampleSolution.Tests.Integration\CsharpSampleSolution.Tests.Integration.csproj", "{17754FCA-E24E-402E-BAA2-0139D3AA9E02}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsharpSampleSolution.Tests.E2E", "CsharpSampleSolution.Tests.E2E\CsharpSampleSolution.Tests.E2E.csproj", "{1E7BD5C3-E8EA-4919-80FA-952A034E099D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CsharpSampleSolution.Tests.E2E", "CsharpSampleSolution.Tests.E2E\CsharpSampleSolution.Tests.E2E.csproj", "{1E7BD5C3-E8EA-4919-80FA-952A034E099D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

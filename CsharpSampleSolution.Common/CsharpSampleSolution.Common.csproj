@@ -8,4 +8,8 @@
     <Company>Salvis Poišs</Company>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Enums\" />
+  </ItemGroup>
+
 </Project>
