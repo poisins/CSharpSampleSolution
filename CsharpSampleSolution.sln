@@ -23,6 +23,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CsharpSampleSolution.Tests.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CsharpSampleSolution.Tests.E2E", "CsharpSampleSolution.Tests.E2E\CsharpSampleSolution.Tests.E2E.csproj", "{1E7BD5C3-E8EA-4919-80FA-952A034E099D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0584C224-D67A-4CDF-BF42-7A1328753E81}"
+	ProjectSection(SolutionItems) = preProject
+		ca.ruleset = ca.ruleset
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
