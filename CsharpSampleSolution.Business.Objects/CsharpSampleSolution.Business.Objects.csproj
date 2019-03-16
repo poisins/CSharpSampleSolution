@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Salvis Poišs</Authors>
+    <Description>Project containing common objects used in other projects across solution</Description>
+    <Product>CsharpSampleSolution.Business.Objects</Product>
+    <Company>Salvis Poišs</Company>
+  </PropertyGroup>
+
+</Project>

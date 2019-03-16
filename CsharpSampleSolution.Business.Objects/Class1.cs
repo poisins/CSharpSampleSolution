@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CsharpSampleSolution
+namespace CsharpSampleSolution.Business.Objects
 {
     public class Class1
     {

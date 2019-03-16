@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Salvis Poišs</Authors>
+    <Description>Project containing base logic for the whole solution</Description>
+    <Company>Salvis Poišs</Company>
+  </PropertyGroup>
+
+</Project>
