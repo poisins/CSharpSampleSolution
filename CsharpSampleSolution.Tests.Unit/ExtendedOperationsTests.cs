@@ -4,7 +4,7 @@
     using CsharpSampleSolution.Common.Business;
     using CsharpSampleSolution.Common.Business.Interfaces;
     using CsharpSampleSolution.Common.Enums;
-    using CsharpSampleSolution.Tests.Unit.Data;
+    using CsharpSampleSolution.Tests.Data;
     using NUnit.Framework;
 
     [TestFixture]

@@ -1,4 +1,4 @@
-﻿namespace CsharpSampleSolution.Tests.Unit.Data
+﻿namespace CsharpSampleSolution.Tests.Data
 {
     using System.Collections;
     using CsharpSampleSolution.Common;

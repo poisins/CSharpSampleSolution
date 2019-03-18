@@ -9,7 +9,6 @@
 
     public class JsonExceptionMiddleware
     {
-
         public async Task Invoke(HttpContext context)
         {
             context.Response.StatusCode = (int)HttpStatusCode.InternalServerError;
