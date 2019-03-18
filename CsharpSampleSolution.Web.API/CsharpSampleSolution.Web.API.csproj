@@ -6,6 +6,8 @@
 	<Company>Salvis Poišs</Company>
     <Description>Provides web service (REST API) for the common business logic</Description>
 	<CodeAnalysisRuleSet>..\ca.ruleset</CodeAnalysisRuleSet>
+	<RootNamespace>CsharpSampleSolution.Web.API</RootNamespace>
+	<AssemblyName>CsharpSampleSolution.Web.API</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>

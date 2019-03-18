@@ -10,6 +10,7 @@ Purpose of this sample is to show:
   - Integration test (NUnit + RestSharp) for WebAPI
   - E2E (UI) tests for Web UI project
 - How to set-up code analyzers - FxCop and StyleCop
+- Reuse common library dll in other projects
 - and more to be updated...
 
 #### Details about Solution
@@ -18,7 +19,7 @@ Uses following frameworks, so make sure you have installed these SDKs:
   - Common
   - Common.Business
   - Tests.NUnit.Addons
-- .NET Core 2.1
+- .NET Core 2.1. SDK 2.1.505 or newer will be good enough: https://dotnet.microsoft.com/download/dotnet-core/2.1
   - Web.API
   - Web.UI
   - Tests.*
