@@ -1,5 +1,6 @@
 ﻿namespace CsharpSampleSolution.Web.UI
 {
+    using CsharpSampleSolution.Web.UI.Configuration;
     using Microsoft.AspNetCore.Builder;
     using Microsoft.AspNetCore.Hosting;
     using Microsoft.AspNetCore.Mvc;
@@ -19,6 +20,9 @@
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+
+            // Get our custom AppSettings and register them as Service reatrievable throught IoC
+            services.Configure<ApiSettings>(this.Configuration.GetSection("ApiSettings"));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

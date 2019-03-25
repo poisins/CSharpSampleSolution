@@ -11,6 +11,8 @@ Purpose of this sample is to show:
   - E2E (UI) tests for Web UI project
 - How to set-up code analyzers - FxCop and StyleCop
 - Reuse common library dll in other projects
+- Work with AJAX forms in .NET Core web project
+- Create and use Web API
 - and more to be updated...
 
 #### Details about Solution

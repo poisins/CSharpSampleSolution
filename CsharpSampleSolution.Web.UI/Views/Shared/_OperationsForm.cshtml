@@ -3,7 +3,8 @@
 
 <hr />
 <div class="row">
-    <form asp-action="Calculate" method="post" data-ajax="true" data-ajax-method="POST" data-ajax-complete="onCompleted">
+    <form asp-action="Calculate" method="post" data-ajax="true" data-ajax-method="POST"
+        data-ajax-begin="onBegin" data-ajax-failure="onFailed" data-ajax-success="onSuccess" >
         <div asp-validation-summary="ModelOnly" class="text-danger"></div>
         <div class="form-row col-md-6">
             <div class="form-group col-sm-6">
@@ -27,16 +28,32 @@
     </form>
 </div>
 <div class="row">
-    <h3 id="FormResults" class="col-sm-12"></h3>
+    <h3 class="col-sm-12">Result: <span id="FormResult"></span></h3>
 </div>
 
 @Html.Script(
 @<script>
     $(document).ready(function () {
-        const $results = $("#FormResults");
+        const $results = $("#FormResult");
 
-        onCompleted = function (xhr) {
-            $results.html(xhr.responseText);
+        // data-ajax-begin="onBegin"
+        onBegin = function () {
+            $results.html("<img src=\"/images/AjaxLoader.gif\" alt=\"Loading\" />");
+        };
+
+        // data-ajax-complete="onCompleted"
+        //onCompleted = function (context) {
+        //    console.log("completed");
+        //};
+
+        // data-ajax-success="onSuccess"
+        onSuccess = function (response) {
+            $results.html(response);
+        };
+
+        // data-ajax-failure="onFailed"
+        onFailed = function (response) {
+            $results.html(response.responseText);
         };
     });
 </script>
