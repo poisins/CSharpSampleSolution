@@ -1,6 +1,9 @@
 # CSharpSampleSolution
 #### Intro
-Sample C# Solution made with .NET Core and Standard.
+Sample C# Solution made with .NET Core and Standard. Why .NET Core?
+- It's multi-platform: runs on Windows, Linux and MAC OS
+- Could be self-hosted - you can start project directly from DLL file, without using any webserver - IIS or IISExpress. This is really good for integration tests.
+
 What this solution do? Nothing much - Add, Subtract, Multiply and Divide two numbers :D.
 And, also, calculates Factorial.
 
