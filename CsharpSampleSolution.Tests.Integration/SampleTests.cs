@@ -10,10 +10,10 @@
     [TestFixture]
     public class SampleTests
     {
-        private const string ApiHost = "http://localhost:55102";
+        private const string ApiHostUrl = "http://localhost:55102";
         private const string EndpointRoot = "/api/calculate/";
 
-        private IWebHost host;
+        private IWebHost apiHost;
 
         [OneTimeSetUp]
         public void Init()
@@ -21,22 +21,22 @@
             // Create self-hosted (Kestrel) WebAPI
             // Use the same config from existing WebAPI project, so it will be the same as we would run debug in our IDE
             // Just specify differen base URL for our host
-            this.host = new WebHostBuilder()
+            this.apiHost = new WebHostBuilder()
                 .UseKestrel()
-                .UseEnvironment("Development")
+                .UseEnvironment("Testing")
                 .UseStartup<Web.API.Startup>()
-                .UseUrls(ApiHost)
+                .UseUrls(ApiHostUrl)
                 .Build();
 
             // Start our WebAPI in background otherwise it will block the thread and tests will be stuck at this line
-            this.host.RunAsync();
+            this.apiHost.RunAsync();
         }
 
         [OneTimeTearDown]
         public void Dispose()
         {
             // Stop our WebAPI's background task
-            this.host.StopAsync();
+            this.apiHost.StopAsync();
         }
 
         // These tests are basically the same as in Unit tests, only a bit modified so they use API calls
@@ -87,7 +87,7 @@
         private decimal PostRequest<T>(string relativeEndpoint, T reqBody)
         {
             // create new request to our WebAPI
-            var client = new RestClient(ApiHost);
+            var client = new RestClient(ApiHostUrl);
             var request = new RestRequest(relativeEndpoint, Method.POST);
             request.AddJsonBody(reqBody);
 
